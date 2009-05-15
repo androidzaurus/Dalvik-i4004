@@ -20,6 +20,9 @@
 
 handler-size 64
 
+# source for the instruction table stub
+asm-stub i4004/stub.S
+
 # C file header and basic definitions
 import c/header.c
 
