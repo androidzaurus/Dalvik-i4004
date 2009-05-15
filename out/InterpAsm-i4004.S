@@ -13,7 +13,10 @@ dvmAsmInstructionStart = .L_OP_NOP
 /* ------------------------------ */
     .balign 64
 .L_OP_NOP: /* 0x00 */
-/* stub for OP_NOP */
+/* File: i4004/OP_NOP.S */
+/* This is my NOP handler */
+
+
 /* ------------------------------ */
     .balign 64
 .L_OP_MOVE: /* 0x01 */

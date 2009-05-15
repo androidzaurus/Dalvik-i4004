@@ -35,6 +35,7 @@ import c/opcommon.c
 # opcode list; argument to op-start is default directory
 op-start c
     # use nothing but C stubs
+    op OP_NOP i4004
 op-end
 
 # arch-specific entry point to interpreter

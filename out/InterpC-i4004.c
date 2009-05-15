@@ -1172,11 +1172,6 @@ GOTO_TARGET_DECL(exceptionThrown);
     FINISH(2);
 
 
-/* File: c/OP_NOP.c */
-HANDLE_OPCODE(OP_NOP)
-    FINISH(1);
-OP_END
-
 /* File: c/OP_MOVE.c */
 HANDLE_OPCODE(OP_MOVE /*vA, vB*/)
     vdst = INST_A(inst);
