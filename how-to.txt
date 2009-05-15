@@ -3,6 +3,9 @@ http://android.git.kernel.org/?p=platform/dalvik.git;a=blob_plain;f=docs/porting
 $ cp config-allstubs config-i4004
 $ mkdir i4004
 $ vi rebuild.sh   # add i4004 in list
+$ source /android/source/mydroid/build/envsetup.sh
+$ export TARGET_ARCH=i4004
 $ ./rebuild.sh
 
+... and so on.
 
