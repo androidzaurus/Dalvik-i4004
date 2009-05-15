@@ -1,0 +1,8 @@
+http://android.git.kernel.org/?p=platform/dalvik.git;a=blob_plain;f=docs/porting-guide.html;hb=HEAD
+
+$ cp config-allstubs config-i4004
+$ mkdir i4004
+$ vi rebuild.sh   # add i4004 in list
+$ ./rebuild.sh
+
+
